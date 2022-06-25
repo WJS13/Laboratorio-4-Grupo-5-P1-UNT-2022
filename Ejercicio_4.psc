@@ -1,7 +1,8 @@
 Funcion  resultado<-FUNCION_RECURSIVA(n)
 
 	si n>3 Entonces
-		resultado= FUNCION_RECURSIVA(n-1)+FUNCION_RECURSIVA(n-2)+FUNCION_RECURSIVA(n-3)
+		resultado= 2*FUNCION_RECURSIVA(n-1)-FUNCION_RECURSIVA(n-4)
+		//Lo anteriormente escrito es equivalente a "resultado= FUNCION_RECURSIVA(n-1)+FUNCION_RECURSIVA(n-2)+FUNCION_RECURSIVA(n-3)"
 	sino 
 		si n=1
 			resultado=0
