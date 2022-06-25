@@ -16,7 +16,7 @@ Funcion  resultado<-FUNCION_RECURSIVA(n)
 FinFuncion
 
 Proceso TERMINO_N_ESIMO_TRIBONACHI
-	
+	definir n Como Entero
 	Escribir "Ingrese el lugar del valor que desea encontrar"
 	Leer n
 	resultado<-FUNCION_RECURSIVA(n)
