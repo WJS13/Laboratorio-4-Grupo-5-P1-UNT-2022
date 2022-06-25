@@ -17,9 +17,17 @@ FinFuncion
 
 Proceso TERMINO_N_ESIMO_TRIBONACHI
 	definir n Como Entero
-	Escribir "Ingrese el lugar del valor que desea encontrar"
-	Leer n
-	resultado<-FUNCION_RECURSIVA(n)
-	Escribir "El término de lugar ",n," es: ",resultado
+	Definir desicion Como Caracter
+	
+	Repetir
+		Escribir "Ingrese el lugar del valor que desea encontrar"
+		Leer n
+		resultado<-FUNCION_RECURSIVA(n)
+		Escribir "El término de lugar ",n," es: ",resultado
+		Escribir "¿Desea seguir usando el programa?"
+		Escribir "Si es así escriba SI, caso contrario escriba NO"
+		Leer desicion
+	Hasta Que desicion=="NO"
+	
 	
 FinProceso
