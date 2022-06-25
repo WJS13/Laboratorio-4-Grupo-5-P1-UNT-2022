@@ -13,7 +13,7 @@ Proceso analisis_numerico
 	ceros = 0
 	
 	Para i = 1 Hasta C Hacer
-		Escribir Sin Saltar "Ingrese el valor numérico ",i,": "
+		Escribir Sin Saltar "Ingrese el valor numÃ©rico ",i,": "
 		Leer N[i]
 		Si N[i] = 0 Entonces
 			ceros = ceros + 1
@@ -24,7 +24,7 @@ Proceso analisis_numerico
 				Si N[i]>0 Entonces
 					producto = producto*N[i]
 				FinSi
-			Fin Si
+			FinSi
 		FinSi
 	FinPara
 	
